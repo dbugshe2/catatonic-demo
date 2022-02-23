@@ -15,6 +15,7 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-toastify": "^8.2.0",
+    "uuid-js": "^0.7.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -54,7 +55,6 @@
     "tailwindcss": "^3.0.23"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
     "*.{js,css,json,md}": "prettier --write"
   },
   "husky": {
